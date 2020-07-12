@@ -1,7 +1,7 @@
 {
   "name": "node_graphql_mead",
   "version": "1.0.0",
-  "description": "",
+  "description": "graphql",
   "main": "index.js",
   "dependencies": {
     "graphql-yoga": "^1.18.3",
