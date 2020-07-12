@@ -1,0 +1,23 @@
+{
+  "name": "node_graphql_mead",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "uuid": "^8.2.0"
+  },
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js --ext js,graphql"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.10.4",
+    "@babel/node": "^7.10.4",
+    "@babel/preset-env": "^7.10.4",
+    "nodemon": "^2.0.4"
+  }
+}
